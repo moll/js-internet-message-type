@@ -1,0 +1,15 @@
+{
+	"name": "internet-message-type",
+	"version": "0.0.0",
+	"private": true,
+
+	"dependencies": {
+		"media-type": "0.2.0"
+	},
+
+	"devDependencies": {
+		"internet-message": ">= 0.0.0 < < 0.1.0",
+		"mocha": ">= 1.18.2 < 2",
+		"must": "< 1"
+	}
+}
