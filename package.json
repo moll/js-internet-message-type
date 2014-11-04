@@ -4,7 +4,7 @@
 	"private": true,
 
 	"dependencies": {
-		"media-type": "0.2.0"
+		"medium-type": ">= 0.1.337 < 0.2"
 	},
 
 	"devDependencies": {
