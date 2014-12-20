@@ -8,7 +8,6 @@ exports.parse = function(msg) {
   if (encoding == null) return msg
 
   msg = Object.create(msg)
-
   switch (encoding) {
     case "json": msg.body = JSON.parse(msg.body); break
   }
@@ -18,7 +17,7 @@ exports.parse = function(msg) {
 
 function getEncoding(msg) {
   var type = msg["content-type"]
-  if (type.type == "application" && type.subtype == "json") return "json"
+  if (type.name == "application/json") return "json"
   if (type.suffix == "json") return "json"
   return null
 }
