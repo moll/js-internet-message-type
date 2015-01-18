@@ -1,15 +1,47 @@
 {
 	"name": "internet-message-type",
 	"version": "0.0.0",
-	"private": true,
+	"description": "Parse RFC 822 ARPA Internet Text Messages types and bodies. Works well with InternetMessage.js.",
+	"keywords": [
+		"imf",
+		"rfc733",
+		"rfc822",
+		"rfc2822",
+		"rfc2045",
+		"rfc2046",
+		"rfc2047",
+		"rfc2048",
+		"rfc2049"
+	],
+	"homepage": "https://github.com/moll/js-internet-message-type",
+	"bugs": "https://github.com/moll/js-internet-message-type/issues",
+
+	"author": {
+		"name": "Andri Möll",
+		"email": "andri@dot.ee",
+		"url": "http://themoll.com"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/moll/js-internet-message-type.git"
+	},
+
+	"licenses": [{
+		"type": "LAGPL",
+		"url": "https://github.com/moll/js-internet-message-type/blob/master/LICENSE"
+	}],
+
+	"main": "index.js",
+	"scripts": {"test": "make test"},
 
 	"dependencies": {
 		"medium-type": ">= 1.0.0 < 2"
 	},
 
 	"devDependencies": {
-		"internet-message": ">= 0.0.0 < < 0.1.0",
+		"internet-message": ">= 1.0.0 < 2",
 		"mocha": ">= 1.18.2 < 2",
-		"must": "< 1"
+		"must": ">= 0.12.0 < 0.13"
 	}
 }
