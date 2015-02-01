@@ -1,6 +1,6 @@
 {
 	"name": "internet-message-type",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Parse RFC 822 ARPA Internet Text Messages types and bodies. Works well with InternetMessage.js.",
 	"keywords": [
 		"imf",
