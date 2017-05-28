@@ -1,14 +1,13 @@
 InternetMessageType.js API Documentation
 ========================================
 ### [InternetMessageType](#InternetMessageType)
-- [parse](#InternetMessageType.parse)(message)
+- [.parse](#InternetMessageType.parse)(message)
 
 ### [InternetMessageBody](#InternetMessageBody)
-- [parse](#InternetMessageBody.parse)(message)
+- [.parse](#InternetMessageBody.parse)(message)
 
 
-<a name="InternetMessageType" />
-InternetMessageType
+InternetMessageType <a name="InternetMessageType"></a>
 -------------------
 
 
@@ -17,8 +16,7 @@ InternetMessageType
 var InternetMessageType = require("internet-message-type")
 ```
 
-<a name="InternetMessageType.parse" />
-### InternetMessageType.parse(message)
+### InternetMessageType.parse(message) <a name="InternetMessageType.parse"></a>
 Parse the `Content-Type` header of the given [InternetMessage][] with
 [MediumType][].  
 Returns a new message without modifying the given one.
@@ -40,8 +38,7 @@ type.subtype // => "json"
 ```
 
 
-<a name="InternetMessageBody" />
-InternetMessageBody
+InternetMessageBody <a name="InternetMessageBody"></a>
 -------------------
 
 
@@ -50,8 +47,7 @@ InternetMessageBody
 var InternetMessageBody = require("internet-message-type/body")
 ```
 
-<a name="InternetMessageBody.parse" />
-### InternetMessageBody.parse(message)
+### InternetMessageBody.parse(message) <a name="InternetMessageBody.parse"></a>
 Parse the `body` of a given [InternetMessage][].  
 Returns a new message without modifying the given one.
 
